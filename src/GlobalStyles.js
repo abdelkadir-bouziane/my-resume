@@ -1,9 +1,12 @@
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyles = createGlobalStyle`
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  color: rgb(50, 50, 50);
+  color: ${({ theme }) => theme.text};
 }
 
 html {
@@ -12,19 +15,20 @@ html {
 
 body {
   font-size: 1.7rem;
-  background-color: rgb(240, 240, 240);
+  background-color: ${({ theme }) => theme.globalBackground};
 }
 
 /* Styling the HeaderBar component */
 
 header {
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 15px ${({ theme }) => theme.HeaderShaddow};
+  background-color: ${({ theme }) => theme.elementsBackground};
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 5rem;
+  z-index: 2;
 }
 
 .header-content {
@@ -37,10 +41,8 @@ header {
   align-items: center;
 }
 
-.header-content .resume-language {
-  display: flex;
-  justify-content: end;
-  flex-wrap: wrap;
+.header-content .resume-language > *:last-child {
+  cursor: pointer;
 }
 
 .header-content .resume-language * {
@@ -56,7 +58,30 @@ header {
   padding: 0 1rem;
   background-color: transparent;
   outline: none;
-  border: none;
+  border: solid 1px ${({ theme }) => theme.text};
+  border-radius: 3px;
+}
+
+.lightness-mode {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: ${({ theme }) => theme.invElementsBackground};
+}
+
+.lightness-mode * {
+  color: ${({ theme }) => theme.invText};
+}
+
+.lightness-mode:hover {
+  opacity: 0.75;
+}
+
+.lightness-mode span {
+  margin-left: 1rem;
 }
 
 /* Styling the ResumeTemplate1 component */
@@ -70,7 +95,8 @@ main {
   padding: 6rem 6rem 1rem 6rem;
   margin: 7rem 2rem 2rem 2rem;
   background-color: white;
-  box-shadow: 0 0 10px rgba(183, 23, 25, 0.2);
+  box-shadow: 0 0 10px ${({ theme }) => theme.imgShaddow};
+  background-color: ${({ theme }) => theme.elementsBackground};
 }
 
 /* Styling the Name component */
@@ -82,7 +108,7 @@ main {
   width: 100%;
   max-width: 20rem;
   border-radius: 1000px;
-  box-shadow: 0 0 10px rgba(183, 23, 25, 0.2);
+  box-shadow: 0 0 10px ${({ theme }) => theme.imgShaddow};
 }
 .name h1 {
   font-size: 3.5rem;
@@ -114,7 +140,7 @@ main {
 }
 
 .contact a:hover * {
-  color: rgb(183, 23, 25);
+  color: ${({ theme }) => theme.hover};
 }
 
 .contact .icon {
@@ -147,7 +173,7 @@ main {
 .languages h2 {
   font-size: 2.1rem;
   width: fit-content;
-  border-bottom: solid 0.4rem rgb(50, 50, 50);
+  border-bottom: solid 0.4rem ${({ theme }) => theme.text};
   margin-bottom: 2rem;
 }
 
@@ -197,7 +223,7 @@ main {
 .experience-establishment h3 a:hover,
 .certificate-offeredBy h3 a:hover,
 .project-title h3 a:hover {
-  color: rgb(183, 23, 25);
+  color: ${({ theme }) => theme.hover};
 }
 
 .diploma-establishment h4,
@@ -217,7 +243,7 @@ main {
 .diploma-establishment h4 a:hover,
 .experience-establishment h4 a:hover,
 .certificate-offeredBy h4 a:hover {
-  color: rgb(183, 23, 25);
+  color: ${({ theme }) => theme.hover};
 }
 
 .date-address {
@@ -254,7 +280,7 @@ main {
 .tool > *,
 .language > * {
   font-size: 1.2rem;
-  border: solid 1.5px rgb(50, 50, 50);
+  border: solid 1.5px ${({ theme }) => theme.text};
   border-radius: 6px;
   padding: 0.1rem 1rem;
   display: inline-block;
@@ -269,9 +295,9 @@ main {
 .skill > a:hover,
 .tool > a:hover,
 .language > a:hover {
-  background-color: rgb(183, 23, 25);
-  border-color: rgb(183, 23, 25);
-  color: white;
+  background-color: ${({ theme }) => theme.text};
+  border-color: ${({ theme }) => theme.text};
+  color: ${({ theme }) => theme.elementsBackground};
 }
 
 /* Styling Languages component */
@@ -311,3 +337,6 @@ main {
     font-size: 8px;
   }
 }
+`;
+
+export default GlobalStyles;
