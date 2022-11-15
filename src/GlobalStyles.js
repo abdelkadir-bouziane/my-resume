@@ -46,12 +46,12 @@ header {
 }
 
 .header-content .resume-language * {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .header-content .resume-language label {
   font-weight: 700;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .header-content .resume-language select {
@@ -59,20 +59,21 @@ header {
   background-color: transparent;
   outline: none;
   border: solid 1px ${({ theme }) => theme.text};
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 .lightness-mode {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 0.4rem 1rem;
+  padding: 0.3rem 1rem;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 4px;
   background-color: ${({ theme }) => theme.invElementsBackground};
 }
 
 .lightness-mode * {
+  font-size: 1.6rem;
   color: ${({ theme }) => theme.invText};
 }
 
