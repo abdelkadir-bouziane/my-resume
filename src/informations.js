@@ -5,7 +5,7 @@ export const informations = {
 
     contact: {
       address: "Chlef, Algeria",
-      phone: "+213556277768",
+      phone: "+213795081867",
       email: "ga_bouziane@esi.dz",
       github: {
         userName: "abdelkadir-bouziane",
@@ -157,6 +157,10 @@ export const informations = {
                 "https://www.sololearn.com/certificates/CT-BAG360B8",
             },
             {
+              name: "Redux",
+              certificateLink: "",
+            },
+            {
               name: "Consume REST APIs",
               certificateLink: "",
             },
@@ -277,7 +281,7 @@ export const informations = {
             "A web application to show informations about all countries in the world",
           date: "11/2022",
           description:
-            "It is a solution to the \"REST Countries API with color theme switcher\" challenge on Frontend Mentor website.",
+            'It is a solution to the "REST Countries API with color theme switcher" challenge on Frontend Mentor website.',
           tools: [
             {
               name: "React.js",
@@ -388,7 +392,7 @@ export const informations = {
 
     contact: {
       address: "Chlef, Algérie",
-      phone: "+213556277768",
+      phone: "+213795081867",
       email: "ga_bouziane@esi.dz",
       github: {
         userName: "abdelkadir-bouziane",
@@ -538,6 +542,10 @@ export const informations = {
               name: "Javascript (ES6)",
               certificateLink:
                 "https://www.sololearn.com/certificates/CT-BAG360B8",
+            },
+            {
+              name: "Redux",
+              certificateLink: "",
             },
             {
               name: "Consommation des APIs REST",

@@ -315,6 +315,22 @@ main {
   font-size: 1.7rem;
 }
 
+a {
+  position: relative;
+}
+
+a::after{
+  content: "";
+  background-image: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='0.5rem' height='0.5rem' viewBox='0 0 16 16'><g fill='${({ theme }) => theme.text}'><path d='M9 .75A.75.75 0 019.75 0h4.5c.206 0 .393.083.529.218l.001.002.002.001A.748.748 0 0115 .75v4.5a.75.75 0 01-1.5 0V2.56L7.28 8.78a.75.75 0 01-1.06-1.06l6.22-6.22H9.75A.75.75 0 019 .75z' /><path d='M3.25 3.5a.75.75 0 00-.75.75v7.5c0 .414.336.75.75.75h7.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0110.75 14h-7.5A2.25 2.25 0 011 11.75v-7.5A2.25 2.25 0 013.25 2h4a.75.75 0 010 1.5h-4z' /></g></svg>");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  transform: translate(30%, -30%);
+}
+
+
 @media screen and (max-width: 700px) {
   .main-content {
     padding: 4rem 2rem 1rem 2rem;
