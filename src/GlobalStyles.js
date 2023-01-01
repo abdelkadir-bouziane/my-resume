@@ -11,10 +11,23 @@ const GlobalStyles = createGlobalStyle`
 
 html {
   font-size: 10px;
+
+  @media (max-width: 700px) {
+    font-size: 9px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 8.5px;
+  }
+
+  @media (max-width: 300px) {
+    font-size: 8px;
+  }
+
 }
 
 body {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   background-color: ${({ theme }) => theme.globalBackground};
 }
 
@@ -98,6 +111,10 @@ main {
   background-color: white;
   box-shadow: 0 0 10px ${({ theme }) => theme.imgShaddow};
   background-color: ${({ theme }) => theme.elementsBackground};
+
+  @media (max-width: 700px) {
+    padding: 4rem 2rem 1rem 2rem;
+  }
 }
 
 /* Styling the Name component */
@@ -112,7 +129,7 @@ main {
   box-shadow: 0 0 10px ${({ theme }) => theme.imgShaddow};
 }
 .name h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   padding: 0 1.5rem;
 }
 
@@ -312,7 +329,7 @@ main {
 }
 
 .language > * {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -321,38 +338,14 @@ a {
 
 a::after{
   content: "";
-  background-image: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='0.5rem' height='0.5rem' viewBox='0 0 16 16'><g fill='${({ theme }) => theme.text}'><path d='M9 .75A.75.75 0 019.75 0h4.5c.206 0 .393.083.529.218l.001.002.002.001A.748.748 0 0115 .75v4.5a.75.75 0 01-1.5 0V2.56L7.28 8.78a.75.75 0 01-1.06-1.06l6.22-6.22H9.75A.75.75 0 019 .75z' /><path d='M3.25 3.5a.75.75 0 00-.75.75v7.5c0 .414.336.75.75.75h7.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0110.75 14h-7.5A2.25 2.25 0 011 11.75v-7.5A2.25 2.25 0 013.25 2h4a.75.75 0 010 1.5h-4z' /></g></svg>");
+  background-image: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 15 15'><g fill='${({ theme }) => theme.text}'><path d='M9 .75A.75.75 0 019.75 0h4.5c.206 0 .393.083.529.218l.001.002.002.001A.748.748 0 0115 .75v4.5a.75.75 0 01-1.5 0V2.56L7.28 8.78a.75.75 0 01-1.06-1.06l6.22-6.22H9.75A.75.75 0 019 .75z' /><path d='M3.25 3.5a.75.75 0 00-.75.75v7.5c0 .414.336.75.75.75h7.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0110.75 14h-7.5A2.25 2.25 0 011 11.75v-7.5A2.25 2.25 0 013.25 2h4a.75.75 0 010 1.5h-4z' /></g></svg>");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   display: inline-block;
-  height: 1rem;
-  width: 1rem;
-  transform: translate(30%, -30%);
-}
-
-
-@media screen and (max-width: 700px) {
-  .main-content {
-    padding: 4rem 2rem 1rem 2rem;
-  }
-
-  html {
-    font-size: 9px;
-  }
-}
-
-
-@media screen and (max-width: 500px) {
-  html {
-    font-size: 8.5px;
-  }
-}
-
-
-@media screen and (max-width: 300px) {
-  html {
-    font-size: 8px;
-  }
+  height: 0.7rem;
+  width: 0.7rem;
+  transform: translate(30%,-70%);
 }
 `;
 
