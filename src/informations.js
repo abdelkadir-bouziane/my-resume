@@ -20,7 +20,7 @@ export const informations = {
     profile: {
       field: "Profile",
       content:
-        "React.js Frontend web developer. Dynamic and motivated. Passionate about all that touches web development.",
+        "React JS Frontend web developer. Dynamic and motivated. Passionate about all that touches web development.",
     },
 
     education: {
@@ -135,7 +135,7 @@ export const informations = {
           details: [],
         },
         {
-          title: "Frontend Developement with React.js",
+          title: "Front-End Developement",
           details: [
             {
               name: "HTML",
@@ -157,6 +157,10 @@ export const informations = {
                 "https://www.sololearn.com/certificates/CT-BAG360B8",
             },
             {
+              name: "React JS",
+              certificateLink: "",
+            },
+            {
               name: "Redux",
               certificateLink: "",
             },
@@ -166,6 +170,19 @@ export const informations = {
             },
             {
               name: "npm",
+              certificateLink: "",
+            },
+          ],
+        },
+        {
+          title: "Back-End Developement",
+          details: [
+            {
+              name: "Node",
+              certificateLink: "",
+            },
+            {
+              name: "Express JS",
               certificateLink: "",
             },
           ],
@@ -223,6 +240,10 @@ export const informations = {
                 "https://www.sololearn.com/certificates/CT-BAG360B8",
             },
             {
+              name: "Node",
+              certificateLink: "",
+            },
+            {
               name: "Python",
               certificateLink:
                 "https://www.sololearn.com/certificates/CT-MQ1ZI8TT",
@@ -277,6 +298,44 @@ export const informations = {
       field: "Projects",
       content: [
         {
+          title: "Web application for dairy production management",
+          date: "12/2022",
+          description:
+            "The project consisted of creating an internal website in Arabic (creating the UI design of the site, then coding it) to manage the daily operations of a milk production company. This project was a test to get a job as a fullstack developer in the software development agency OMRAN SOFTWARE.",
+          tools: [
+            {
+              name: "React JS",
+              certificateLink: "",
+            },
+            {
+              name: "Redux",
+              certificateLink: "",
+            },
+            {
+              name: "CSS",
+              certificateLink:
+                "https://www.sololearn.com/certificates/CT-1J5NZF5D",
+            },
+            {
+              name: "Consume REST API",
+              certificateLink: "",
+            },
+            {
+              name: "Node",
+              certificateLink: "",
+            },
+            {
+              name: "Express JS",
+              certificateLink: "",
+            },
+            {
+              name: "Adobe Illustrator",
+              certificateLink: "",
+            },
+          ],
+          link: "https://github.com/abdelkadir-bouziane/milk-production-management-application",
+        },
+        {
           title:
             "A web application to show informations about all countries in the world",
           date: "11/2022",
@@ -284,7 +343,7 @@ export const informations = {
             'It is a solution to the "REST Countries API with color theme switcher" challenge on Frontend Mentor website.',
           tools: [
             {
-              name: "React.js",
+              name: "React JS",
               certificateLink: "",
             },
             {
@@ -306,24 +365,7 @@ export const informations = {
               certificateLink: "",
             },
           ],
-          link: "https://abdelkadir-bouziane.github.io/rest-countries-api/",
-        },
-        {
-          title: "Virtual reality application",
-          date: "2020",
-          description:
-            "Creation of a 3D system to visualize the deformation of the spine of a patient suffering from Scoliosis disease.",
-          tools: [
-            {
-              name: "C#",
-              certificateLink: "",
-            },
-            {
-              name: "Unity 3D",
-              certificateLink: "",
-            },
-          ],
-          link: "",
+          link: "https://github.com/abdelkadir-bouziane/rest-countries-api",
         },
         {
           title: "SOROBAN desktop application",
@@ -407,7 +449,7 @@ export const informations = {
     profile: {
       field: "Profil",
       content:
-        "Développeur web Frontend avec React.js. Dynamique et motivé. Passionné par tout ce qui touche au développement web.",
+        "Développeur web Frontend avec React JS. Dynamique et motivé. Passionné par tout ce qui touche au développement web.",
     },
 
     education: {
@@ -522,7 +564,7 @@ export const informations = {
           details: [],
         },
         {
-          title: "Développement web Frontend avec React.js",
+          title: "Développement web Front-End",
           details: [
             {
               name: "HTML",
@@ -544,15 +586,32 @@ export const informations = {
                 "https://www.sololearn.com/certificates/CT-BAG360B8",
             },
             {
+              name: "React JS",
+              certificateLink: "",
+            },
+            {
               name: "Redux",
               certificateLink: "",
             },
             {
-              name: "Consommation des APIs REST",
+              name: "Consume REST APIs",
               certificateLink: "",
             },
             {
               name: "npm",
+              certificateLink: "",
+            },
+          ],
+        },
+        {
+          title: "Développement web Back-End",
+          details: [
+            {
+              name: "Node",
+              certificateLink: "",
+            },
+            {
+              name: "Express JS",
               certificateLink: "",
             },
           ],
@@ -610,6 +669,10 @@ export const informations = {
                 "https://www.sololearn.com/certificates/CT-BAG360B8",
             },
             {
+              name: "Node",
+              certificateLink: "",
+            },
+            {
               name: "Python",
               certificateLink:
                 "https://www.sololearn.com/certificates/CT-MQ1ZI8TT",
@@ -664,6 +727,44 @@ export const informations = {
       field: "Projets",
       content: [
         {
+          title: "Application web pour la gestion de la production laitière",
+          date: "12/2022",
+          description:
+            "Le projet consistait à créer un site web interne en arabe (création du design UI du site, puis codage) pour gérer les opérations quotidiennes d'une entreprise de production de lait. Ce projet était un test pour obtenir un emploi en tant que développeur fullstack dans l'agence de développement de logiciels OMRAN SOFTWARE.",
+          tools: [
+            {
+              name: "React JS",
+              certificateLink: "",
+            },
+            {
+              name: "Redux",
+              certificateLink: "",
+            },
+            {
+              name: "CSS",
+              certificateLink:
+                "https://www.sololearn.com/certificates/CT-1J5NZF5D",
+            },
+            {
+              name: "Consommation d'API REST",
+              certificateLink: "",
+            },
+            {
+              name: "Node",
+              certificateLink: "",
+            },
+            {
+              name: "Express JS",
+              certificateLink: "",
+            },
+            {
+              name: "Adobe Illustrator",
+              certificateLink: "",
+            },
+          ],
+          link: "https://github.com/abdelkadir-bouziane/milk-production-management-application",
+        },
+        {
           title:
             "Une application web pour montrer des informations sur tous les pays du monde.",
           date: "11/2022",
@@ -671,7 +772,7 @@ export const informations = {
             "Il s'agit d'une solution au défi \"REST Countries API with color theme switcher\" sur le site Web Frontend Mentor.",
           tools: [
             {
-              name: "React.js",
+              name: "React JS",
               certificateLink: "",
             },
             {
@@ -693,24 +794,7 @@ export const informations = {
               certificateLink: "",
             },
           ],
-          link: "https://abdelkadir-bouziane.github.io/rest-countries-api/",
-        },
-        {
-          title: "Application de la réalité virtuelle",
-          date: "2020",
-          description:
-            "Création d'un système 3D permettant de visualiser la déformation de la colonne vertébrale d'un patient souffrant de la maladie de Scoliose.",
-          tools: [
-            {
-              name: "C#",
-              certificateLink: "",
-            },
-            {
-              name: "Unity 3D",
-              certificateLink: "",
-            },
-          ],
-          link: "",
+          link: "https://github.com/abdelkadir-bouziane/rest-countries-api",
         },
         {
           title: "Application de bureau SOROBAN",
