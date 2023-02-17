@@ -1,6 +1,6 @@
 import { FaSun, FaMoon } from "react-icons/fa";
 
-function HeaderBar({ language, setLanguage, theme, setTheme }) {
+function HeaderBar({ language, setLanguage, theme, setTheme, handlePrint }) {
   return (
     <header>
       <div className="header-content">
@@ -14,21 +14,15 @@ function HeaderBar({ language, setLanguage, theme, setTheme }) {
             <option value="french">French</option>
           </select>
         </div>
-        <div
-          className="lightness-mode"
-          onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-        >
-          {theme === "light" ? (
-            <>
-              <FaMoon />
-              <span>Dark Mode</span>
-            </>
-          ) : (
-            <>
-              <FaSun />
-              <span>Light Mode</span>
-            </>
-          )}
+
+        <div className="print-and-lightness">
+          <button onClick={handlePrint}>Print the resume</button>
+          <div
+            className="lightness-mode"
+            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+          >
+            {theme === "light" ? <FaMoon /> : <FaSun />}
+          </div>
         </div>
       </div>
     </header>

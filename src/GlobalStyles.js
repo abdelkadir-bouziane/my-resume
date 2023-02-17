@@ -68,20 +68,35 @@ header {
 }
 
 .header-content .resume-language select {
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
   background-color: transparent;
   outline: none;
   border: solid 1px ${({ theme }) => theme.text};
   border-radius: 4px;
 }
 
+.print-and-lightness {
+  display: flex;
+  gap: 3rem;
+}
+
+.print-and-lightness button {
+  padding: 0 1rem;
+  font-size: 1.6rem;
+  background-color: transparent;
+  outline: none;
+  border: solid 1px ${({ theme }) => theme.text};
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .lightness-mode {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 0.3rem 1rem;
+  padding: 1rem;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 500px;
   background-color: ${({ theme }) => theme.invElementsBackground};
 }
 
@@ -106,7 +121,7 @@ main {
 }
 
 .main-content {
-  padding: 6rem 6rem 1rem 6rem;
+  padding: 3rem;
   margin: 7rem 2rem 2rem 2rem;
   background-color: white;
   box-shadow: 0 0 10px ${({ theme }) => theme.imgShaddow};
@@ -115,6 +130,10 @@ main {
   @media (max-width: 700px) {
     padding: 4rem 2rem 1rem 2rem;
   }
+}
+
+.printed-content {
+  margin: 3rem;
 }
 
 /* Styling the Name component */

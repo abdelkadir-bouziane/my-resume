@@ -1,15 +1,20 @@
 import { ThemeProvider } from "styled-components";
 import HeaderBar from "./components/HeaderBar";
-import ResumeTemplate1 from "./components/resumeTemplates/ResumeTemplate1";
+import { ResumeTemplate1 } from "./components/resumeTemplates/ResumeTemplate1";
 import { informations } from "./informations";
 import photo from "./my_photo.jpg";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { themes } from "./themes";
 import GlobalStyles from "./GlobalStyles";
+import { useReactToPrint } from "react-to-print";
 
 function App() {
   const [language, setLanguage] = useState("english");
   const [theme, setTheme] = useState("light");
+  const componentRef = useRef();
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current,
+  });
 
   return (
     <ThemeProvider theme={{ ...themes[theme] }}>
@@ -20,8 +25,13 @@ function App() {
           setLanguage={setLanguage}
           theme={theme}
           setTheme={setTheme}
+          handlePrint={handlePrint}
         />
-        <ResumeTemplate1 informations={informations[language]} photo={photo} />
+        <ResumeTemplate1
+          ref={componentRef}
+          informations={informations[language]}
+          photo={photo}
+        />
       </section>
     </ThemeProvider>
   );
