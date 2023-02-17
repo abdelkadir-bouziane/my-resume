@@ -129,8 +129,9 @@ main {
   box-shadow: 0 0 10px ${({ theme }) => theme.imgShaddow};
 }
 .name h1 {
-  font-size: 3rem;
+  font-size: 3.3rem;
   padding: 0 1.5rem;
+  margin: 2rem 0 3rem;
 }
 
 /* Styling the Contact component */
