@@ -24,6 +24,10 @@ html {
     font-size: 8px;
   }
 
+  @media print {
+    font-size: 10px;
+  }
+
 }
 
 body {
@@ -59,16 +63,16 @@ header {
 }
 
 .header-content .resume-language * {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .header-content .resume-language label {
   font-weight: 700;
-  margin-right: 0.5rem;
+  margin-right: 0.4rem;
 }
 
 .header-content .resume-language select {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   background-color: transparent;
   outline: none;
   border: solid 1px ${({ theme }) => theme.text};
@@ -77,12 +81,12 @@ header {
 
 .print-and-lightness {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .print-and-lightness button {
   padding: 0 1rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   background-color: transparent;
   outline: none;
   border: solid 1px ${({ theme }) => theme.text};
@@ -101,7 +105,7 @@ header {
 }
 
 .lightness-mode * {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: ${({ theme }) => theme.invText};
 }
 
@@ -121,25 +125,30 @@ main {
 }
 
 .main-content {
-  padding: 3rem;
+  padding: 6rem;
   margin: 7rem 2rem 2rem 2rem;
-  background-color: white;
   box-shadow: 0 0 10px ${({ theme }) => theme.imgShaddow};
   background-color: ${({ theme }) => theme.elementsBackground};
 
   @media (max-width: 700px) {
     padding: 4rem 2rem 1rem 2rem;
   }
-}
 
-.printed-content {
-  margin: 3rem;
+  @media print {
+    padding: 8rem 4rem 4rem 4rem;
+    margin: 0;
+    box-shadow: none;
+  }
 }
 
 /* Styling the Name component */
 
 .name {
   text-align: center;
+
+  @media print {
+    break-inside: avoid;
+  }
 }
 .name img {
   width: 100%;
@@ -162,6 +171,10 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  @media print {
+    break-inside: avoid;
+  }
 }
 
 .contact > span {
@@ -200,6 +213,10 @@ main {
 .projects,
 .languages {
   margin: 5rem 0;
+
+  @media print {
+    break-inside: avoid;
+  }
 }
 
 .profile h2,

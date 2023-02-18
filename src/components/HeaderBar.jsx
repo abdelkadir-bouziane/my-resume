@@ -10,13 +10,13 @@ function HeaderBar({ language, setLanguage, theme, setTheme, handlePrint }) {
             value={language}
             onChange={(e) => setLanguage(e.target.value)}
           >
-            <option value="english">English</option>
-            <option value="french">French</option>
+            <option value="english">En</option>
+            <option value="french">Fr</option>
           </select>
         </div>
 
         <div className="print-and-lightness">
-          <button onClick={handlePrint}>Print the resume</button>
+          <button onClick={handlePrint}>Print it</button>
           <div
             className="lightness-mode"
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
