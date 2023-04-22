@@ -6,7 +6,15 @@ function ProfessionalExperiences({ experiencesInfos }) {
         <div key={index} className="experience-item">
           <div className="head">
             <div className="experience-establishment">
-              <h3>{experienceItem.experience}</h3>
+              <h3>
+                {experienceItem.link === "" ? (
+                  experienceItem.experience
+                ) : (
+                  <a href={experienceItem.link} target="_blanc">
+                    {experienceItem.experience}
+                  </a>
+                )}
+              </h3>
               <h4>
                 <a href={experienceItem.establishment.webSite} target="_blanc">
                   {experienceItem.establishment.name}

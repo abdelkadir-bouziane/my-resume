@@ -6,7 +6,15 @@ function Education({ educationInfos }) {
         <div key={index} className="education-item">
           <div className="head">
             <div className="diploma-establishment">
-              <h3>{educationItem.diploma}</h3>
+              <h3>
+                {educationItem.link === "" ? (
+                  educationItem.diploma
+                ) : (
+                  <a href={educationItem.link} target="_blanc">
+                    {educationItem.diploma}
+                  </a>
+                )}
+              </h3>
               <h4>
                 <a href={educationItem.establishment.webSite} target="_blanc">
                   {educationItem.establishment.name}

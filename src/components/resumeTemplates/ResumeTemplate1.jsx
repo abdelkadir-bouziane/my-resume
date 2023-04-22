@@ -8,6 +8,7 @@ import Certificates from "../Certificates";
 import Skills from "../Skills";
 import Projects from "../Projects";
 import Languages from "../Languages";
+import AdditionalInformation from "../AdditionalInformation";
 
 const getPageMargins = () => {
   return `@page { margin: 2rem 0 !important; }`;
@@ -33,6 +34,9 @@ export const ResumeTemplate1 = React.forwardRef((props, ref) => {
         <Skills skillsInfos={props.informations.skills} />
         <Projects projectsInfos={props.informations.projects} />
         <Languages languagesInfos={props.informations.languages} />
+        <AdditionalInformation
+          additionalInformation={props.informations.additionalInformation}
+        />
       </div>
     </main>
   );

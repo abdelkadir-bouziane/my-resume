@@ -211,7 +211,8 @@ main {
 .certificates,
 .skills,
 .projects,
-.languages {
+.languages,
+.additionalInformation {
   margin: 5rem 0;
 
   @media print {
@@ -225,7 +226,8 @@ main {
 .certificates h2,
 .skills h2,
 .projects h2,
-.languages h2 {
+.languages h2,
+.additionalInformation h2 {
   font-size: 2.1rem;
   width: fit-content;
   border-bottom: solid 0.4rem ${({ theme }) => theme.text};
@@ -320,7 +322,8 @@ main {
 }
 
 .modules li,
-.skills li {
+.skills li,
+.additionalInformation li {
   margin: 1rem 0 0 3rem;
 }
 
