@@ -3,7 +3,7 @@ export const english = {
   familyName: "Bouziane",
 
   contact: {
-    address: "Chlef, Algeria",
+    address: "Algiers, Algeria",
     phone: "+213795081867",
     email: "ga_bouziane@esi.dz",
     github: {
@@ -19,7 +19,7 @@ export const english = {
   profile: {
     field: "Profile",
     content:
-      "React JS Frontend web developer. Dynamic and motivated. Passionate about all that touches web development.",
+      "Experienced React JS frontend web developer with a passion for all things related to web development. Proficiency in HTML, CSS, JavaScript and building responsive applications. Strong problem-solving skills and collaborative team spirit.",
   },
 
   education: {
@@ -60,7 +60,22 @@ export const english = {
     field: "Professional Experiences",
     content: [
       {
-        experience: "Junior Software Engineer",
+        experience: "Fullstack web developer",
+        link: "",
+        establishment: {
+          name: "MEGASOFT OFFICE",
+          webSite: "https://www.megasoft-office.com/",
+        },
+        address: "Algiers, Algeria",
+        period: {
+          from: "04/2023",
+          to: "Present",
+        },
+        description:
+          "MEGASOFT OFFICE, founded in 1990, is Algeria's leading management software company. It offers a wide range of products to help companies manage their activities. As a Fullstack web developer in the company, my role was to work with their development team to improve their products and migrate them to web applications using the React js and Express js.",
+      },
+      {
+        experience: "Frontend web developer",
         link: "",
         establishment: {
           name: "Digital Home",
@@ -69,10 +84,10 @@ export const english = {
         address: "Algiers, Algeria",
         period: {
           from: "01/2023",
-          to: "Present",
+          to: "04/2023",
         },
         description:
-          "Digital Home is an Algerian digital shopping platform. As a software engineer in the startup, my role was to add new features and maintain the frontend side of their platform created with the React framework: Next js.",
+          "Digital Home is an Algerian digital shopping platform. As a Frontend web developer in the startup, my role was to add new features and maintain the frontend side of their platform created with the React framework: Next js.",
       },
       {
         experience:
@@ -85,41 +100,41 @@ export const english = {
         address: "Algiers, Algeria",
         period: {
           from: "10/2021",
-          to: "08/2022",
+          to: "10/2022",
         },
         description:
           'The subject of the project was: "The reproduction of chess playing styles using deep reinforcement learning from demonstrations with MLP and CNN networks".',
       },
-      {
-        experience: "Elaboration of the Master's thesis",
-        link: "https://drive.google.com/file/d/1KJihtfen5U1hQNpR1jGaOn2K-vE4dvhn/view?usp=share_link",
-        establishment: {
-          name: "LCSI Laboratory – ESI",
-          webSite: "http://lcsi.esi.dz/",
-        },
-        address: "Algiers, Algeria",
-        period: {
-          from: "10/2021",
-          to: "03/2022",
-        },
-        description:
-          'The subject of the thesis was: "Study of neural architectures for human brain cloning, application to chess engines".',
-      },
-      {
-        experience: "Discovery internship in a professional environment",
-        link: "https://drive.google.com/file/d/1J6z9j5LDVTg0-tmtp6i0FNF6TmETk4lM/view?usp=share_link",
-        establishment: {
-          name: "Telecom Algeria",
-          webSite: "https://www.algerietelecom.dz/",
-        },
-        address: "Chlef, Algeria",
-        period: {
-          from: "09/2019",
-          to: "10/2019",
-        },
-        description:
-          "It was a discovery internship in a professional environment at the maintenance center of the access network of Telecom Algeria.",
-      },
+      // {
+      //   experience: "Elaboration of the Master's thesis",
+      //   link: "https://drive.google.com/file/d/1KJihtfen5U1hQNpR1jGaOn2K-vE4dvhn/view?usp=share_link",
+      //   establishment: {
+      //     name: "LCSI Laboratory – ESI",
+      //     webSite: "http://lcsi.esi.dz/",
+      //   },
+      //   address: "Algiers, Algeria",
+      //   period: {
+      //     from: "10/2021",
+      //     to: "03/2022",
+      //   },
+      //   description:
+      //     'The subject of the thesis was: "Study of neural architectures for human brain cloning, application to chess engines".',
+      // },
+      // {
+      //   experience: "Discovery internship in a professional environment",
+      //   link: "https://drive.google.com/file/d/1J6z9j5LDVTg0-tmtp6i0FNF6TmETk4lM/view?usp=share_link",
+      //   establishment: {
+      //     name: "Telecom Algeria",
+      //     webSite: "https://www.algerietelecom.dz/",
+      //   },
+      //   address: "Chlef, Algeria",
+      //   period: {
+      //     from: "09/2019",
+      //     to: "10/2019",
+      //   },
+      //   description:
+      //     "It was a discovery internship in a professional environment at the maintenance center of the access network of Telecom Algeria.",
+      // },
     ],
   },
 
@@ -145,11 +160,11 @@ export const english = {
     field: "Skills",
     content: [
       {
-        title: "Object-Oriented Programming (OOP)",
+        title: "Problem-solving",
         details: [],
       },
       {
-        title: "Problem-solving",
+        title: "Object-Oriented Programming (OOP)",
         details: [],
       },
       {
@@ -183,6 +198,10 @@ export const english = {
             certificateLink: "",
           },
           {
+            name: "Ant Design",
+            certificateLink: "",
+          },
+          {
             name: "Redux",
             certificateLink: "",
           },
@@ -211,11 +230,11 @@ export const english = {
             name: "Express JS",
             certificateLink: "",
           },
+          {
+            name: "Sequelize",
+            certificateLink: "",
+          },
         ],
-      },
-      {
-        title: "Git & Github",
-        details: [],
       },
       {
         title: "Databases",
@@ -233,6 +252,10 @@ export const english = {
             certificateLink: "",
           },
         ],
+      },
+      {
+        title: "Git & Github",
+        details: [],
       },
       {
         title: "Artificial intelligence",
@@ -258,7 +281,8 @@ export const english = {
         ],
       },
       {
-        title: "Programming language used (in descending order of use)",
+        title:
+          "Programming languages and tools already used (in descending order of use)",
         details: [
           {
             name: "Javascript (ES6)",
@@ -335,7 +359,7 @@ export const english = {
         title: "Web application for dairy production management",
         date: "12/2022",
         description:
-          "The project consisted of creating an internal website in Arabic (creating the UI design of the site, then coding it) to manage the daily operations of a milk production company. This project was a test to get a job as a fullstack developer in the software development agency OMRAN SOFTWARE.",
+          "The project consisted of creating an internal website in Arabic (creating the UI design of the site, then coding it) to manage the daily operations of a milk production company.",
         tools: [
           {
             name: "React JS",
@@ -367,11 +391,13 @@ export const english = {
             certificateLink: "",
           },
         ],
-        link: "https://github.com/abdelkadir-bouziane/milk-production-management-application",
+        link1:
+          "https://github.com/abdelkadir-bouziane/milk-production-management-application",
+        link2: "",
       },
       {
         title:
-          "A web application to show informations about all countries in the world",
+          "Web application to show informations about all countries in the world",
         date: "11/2022",
         description:
           'It is a solution to the "REST Countries API with color theme switcher" challenge on Frontend Mentor website.',
@@ -386,10 +412,6 @@ export const english = {
               "https://www.sololearn.com/certificates/CT-BAG360B8",
           },
           {
-            name: "JSX",
-            certificateLink: "",
-          },
-          {
             name: "CSS",
             certificateLink:
               "https://www.sololearn.com/certificates/CT-1J5NZF5D",
@@ -399,25 +421,26 @@ export const english = {
             certificateLink: "",
           },
         ],
-        link: "https://github.com/abdelkadir-bouziane/rest-countries-api",
+        link1: "https://github.com/abdelkadir-bouziane/rest-countries-api",
+        link2: "https://abdelkadir-bouziane.github.io/rest-countries-api",
       },
-      {
-        title: "SOROBAN desktop application",
-        date: "2019",
-        description:
-          "Creation of an application to generate tests for the different levels of the Japanese SOROBAN training.",
-        tools: [
-          {
-            name: "C#",
-            certificateLink: "",
-          },
-          {
-            name: "WPF",
-            certificateLink: "",
-          },
-        ],
-        link: "",
-      },
+      // {
+      //   title: "SOROBAN desktop application",
+      //   date: "2019",
+      //   description:
+      //     "Creation of an application to generate tests for the different levels of the Japanese SOROBAN training.",
+      //   tools: [
+      //     {
+      //       name: "C#",
+      //       certificateLink: "",
+      //     },
+      //     {
+      //       name: "WPF",
+      //       certificateLink: "",
+      //     },
+      //   ],
+      //   link: "",
+      // },
     ],
   },
 

@@ -1,7 +1,7 @@
 function Education({ educationInfos }) {
   return (
     <article className="education">
-      <h2>2. {educationInfos.field}</h2>
+      <h2>3. {educationInfos.field}</h2>
       {educationInfos.content.map((educationItem, index) => (
         <div key={index} className="education-item">
           <div className="head">

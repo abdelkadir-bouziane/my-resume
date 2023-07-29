@@ -3,7 +3,7 @@ export const french = {
   familyName: "Bouziane",
 
   contact: {
-    address: "Chlef, Algérie",
+    address: "Alger, Algérie",
     phone: "+213795081867",
     email: "ga_bouziane@esi.dz",
     github: {
@@ -19,14 +19,14 @@ export const french = {
   profile: {
     field: "Profil",
     content:
-      "Développeur web Frontend avec React JS. Dynamique et motivé. Passionné par tout ce qui touche au développement web.",
+      "Développeur web frontend expérimenté en React JS avec une passion pour tout ce qui concerne le développement web. Compétence en HTML, CSS, JavaScript et construction d'applications responsives. Solides compétences en résolution de problèmes et esprit d'équipe collaboratif.",
   },
 
   education: {
     field: "Éducation",
     content: [
       {
-        diploma: "Diplômes d'ingénieur d'état et de master en informatique",
+        diploma: "Diplômes d'ingénieur d'état et master en informatique",
         link: "https://drive.google.com/file/d/1HGJbRo39umQwpAN0ph_X0zBlI-UmFOlw/view?usp=share_link",
         establishment: {
           name: "École nationale supérieure d'informatique - ESI",
@@ -60,7 +60,22 @@ export const french = {
     field: "Expériences professionnelles",
     content: [
       {
-        experience: "Ingénieur logiciel junior",
+        experience: "Développeur web fullstack",
+        link: "",
+        establishment: {
+          name: "MEGASOFT OFFICE",
+          webSite: "https://www.megasoft-office.com/",
+        },
+        address: "Alger, Algérie",
+        period: {
+          from: "04/2023",
+          to: "Présent",
+        },
+        description:
+          "MEGASOFT OFFICE, fondé en 1990, est le premier éditeur algérien de logiciels de gestion. Il propose une large gamme de produits pour aider les entreprises à gérer leurs activités. En tant que développeur web Fullstack dans l'entreprise, mon rôle était de travailler avec leur équipe de développement pour améliorer leurs produits et les migrer vers des applications web en utilisant React js et Express js.",
+      },
+      {
+        experience: "Développeur web Frontend",
         link: "",
         establishment: {
           name: "Digital Home",
@@ -69,10 +84,10 @@ export const french = {
         address: "Alger, Algérie",
         period: {
           from: "01/2023",
-          to: "Présent",
+          to: "04/2023",
         },
         description:
-          "Digital Home est une plateforme d'achat numérique algérienne. En tant qu'ingénieur logiciel dans la startup, mon rôle était d'ajouter de nouvelles fonctionnalités et de maintenir le côté frontend de leur plateforme crée avec le framework de React: Next js.",
+          "Digital Home est une plateforme d'achat numérique algérienne. En tant que développeur web Frontend dans la startup, mon rôle était d'ajouter de nouvelles fonctionnalités et de maintenir le côté frontend de leur plateforme crée avec le framework de React: Next js.",
       },
       {
         experience:
@@ -85,41 +100,41 @@ export const french = {
         address: "Alger, Algérie",
         period: {
           from: "10/2021",
-          to: "08/2022",
+          to: "10/2022",
         },
         description:
           "Le sujet du projet était : \"La reproduction des styles de jeu d'échecs en utilisant l'apprentissage par renforcement profond à partir de démonstrations avec des réseaux MLPs et CNNs\".",
       },
-      {
-        experience: "Élaboration de la thèse du Master",
-        link: "https://drive.google.com/file/d/1KJihtfen5U1hQNpR1jGaOn2K-vE4dvhn/view?usp=share_link",
-        establishment: {
-          name: "Laboratoire LCSI - ESI",
-          webSite: "http://lcsi.esi.dz/",
-        },
-        address: "Alger, Algérie",
-        period: {
-          from: "10/2021",
-          to: "03/2022",
-        },
-        description:
-          'Le sujet de la thèse était : "Étude des architectures neuronales pour le clonage du cerveau humain, application aux moteurs d\'échecs".',
-      },
-      {
-        experience: "Stage de découverte dans un environnement professionnel",
-        link: "https://drive.google.com/file/d/1J6z9j5LDVTg0-tmtp6i0FNF6TmETk4lM/view?usp=share_link",
-        establishment: {
-          name: "Algérie Télécom ",
-          webSite: "https://www.algerietelecom.dz/",
-        },
-        address: "Chlef, Algérie",
-        period: {
-          from: "09/2019",
-          to: "10/2019",
-        },
-        description:
-          "Il s'agissait d'un stage de découverte dans un environnement professionnel au centre de maintenance du réseau d'accès d'Algérie Télécom.",
-      },
+      // {
+      //   experience: "Élaboration de la thèse du Master",
+      //   link: "https://drive.google.com/file/d/1KJihtfen5U1hQNpR1jGaOn2K-vE4dvhn/view?usp=share_link",
+      //   establishment: {
+      //     name: "Laboratoire LCSI - ESI",
+      //     webSite: "http://lcsi.esi.dz/",
+      //   },
+      //   address: "Alger, Algérie",
+      //   period: {
+      //     from: "10/2021",
+      //     to: "03/2022",
+      //   },
+      //   description:
+      //     'Le sujet de la thèse était : "Étude des architectures neuronales pour le clonage du cerveau humain, application aux moteurs d\'échecs".',
+      // },
+      // {
+      //   experience: "Stage de découverte dans un environnement professionnel",
+      //   link: "https://drive.google.com/file/d/1J6z9j5LDVTg0-tmtp6i0FNF6TmETk4lM/view?usp=share_link",
+      //   establishment: {
+      //     name: "Algérie Télécom ",
+      //     webSite: "https://www.algerietelecom.dz/",
+      //   },
+      //   address: "Chlef, Algérie",
+      //   period: {
+      //     from: "09/2019",
+      //     to: "10/2019",
+      //   },
+      //   description:
+      //     "Il s'agissait d'un stage de découverte dans un environnement professionnel au centre de maintenance du réseau d'accès d'Algérie Télécom.",
+      // },
     ],
   },
 
@@ -145,11 +160,11 @@ export const french = {
     field: "Compétences",
     content: [
       {
-        title: "Programmation orientée objet (POO)",
+        title: "Résolution de problèmes",
         details: [],
       },
       {
-        title: "Résolution de problèmes",
+        title: "Programmation orientée objet (POO)",
         details: [],
       },
       {
@@ -183,6 +198,10 @@ export const french = {
             certificateLink: "",
           },
           {
+            name: "Ant Design",
+            certificateLink: "",
+          },
+          {
             name: "Redux",
             certificateLink: "",
           },
@@ -211,11 +230,11 @@ export const french = {
             name: "Express JS",
             certificateLink: "",
           },
+          {
+            name: "Sequelize",
+            certificateLink: "",
+          },
         ],
-      },
-      {
-        title: "Git & Github",
-        details: [],
       },
       {
         title: "Bases de données",
@@ -233,6 +252,10 @@ export const french = {
             certificateLink: "",
           },
         ],
+      },
+      {
+        title: "Git & Github",
+        details: [],
       },
       {
         title: "Intelligence artificielle",
@@ -258,7 +281,8 @@ export const french = {
         ],
       },
       {
-        title: "Langage de programmation utilisé (par ordre décroissant d'utilisation)",
+        title:
+          "Langage de programmation et outils déjà utilisés (par ordre décroissant d'utilisation)",
         details: [
           {
             name: "Javascript (ES6)",
@@ -335,7 +359,7 @@ export const french = {
         title: "Application web pour la gestion de la production laitière",
         date: "12/2022",
         description:
-          "Le projet consistait à créer un site web interne en arabe (création du design UI du site, puis codage) pour gérer les opérations quotidiennes d'une entreprise de production de lait. Ce projet était un test pour obtenir un emploi en tant que développeur fullstack dans l'agence de développement de logiciels OMRAN SOFTWARE.",
+          "Le projet consistait à créer un site web interne en arabe (création du design UI du site, puis codage) pour gérer les opérations quotidiennes d'une entreprise de production de lait.",
         tools: [
           {
             name: "React JS",
@@ -367,11 +391,13 @@ export const french = {
             certificateLink: "",
           },
         ],
-        link: "https://github.com/abdelkadir-bouziane/milk-production-management-application",
+        link1:
+          "https://github.com/abdelkadir-bouziane/milk-production-management-application",
+        link2: "",
       },
       {
         title:
-          "Une application web pour montrer des informations sur tous les pays du monde.",
+          "Application web pour montrer des informations sur tous les pays du monde",
         date: "11/2022",
         description:
           "Il s'agit d'une solution au défi \"REST Countries API with color theme switcher\" sur le site Web Frontend Mentor.",
@@ -386,10 +412,6 @@ export const french = {
               "https://www.sololearn.com/certificates/CT-BAG360B8",
           },
           {
-            name: "JSX",
-            certificateLink: "",
-          },
-          {
             name: "CSS",
             certificateLink:
               "https://www.sololearn.com/certificates/CT-1J5NZF5D",
@@ -399,25 +421,26 @@ export const french = {
             certificateLink: "",
           },
         ],
-        link: "https://github.com/abdelkadir-bouziane/rest-countries-api",
+        link1: "https://github.com/abdelkadir-bouziane/rest-countries-api",
+        link2: "https://abdelkadir-bouziane.github.io/rest-countries-api",
       },
-      {
-        title: "Application de bureau SOROBAN",
-        date: "2019",
-        description:
-          "Création d'une application permettant de générer des tests pour les différents niveaux de la formation japonaise SOROBAN.",
-        tools: [
-          {
-            name: "C#",
-            certificateLink: "",
-          },
-          {
-            name: "WPF",
-            certificateLink: "",
-          },
-        ],
-        link: "",
-      },
+      // {
+      //   title: "Application de bureau SOROBAN",
+      //   date: "2019",
+      //   description:
+      //     "Création d'une application permettant de générer des tests pour les différents niveaux de la formation japonaise SOROBAN.",
+      //   tools: [
+      //     {
+      //       name: "C#",
+      //       certificateLink: "",
+      //     },
+      //     {
+      //       name: "WPF",
+      //       certificateLink: "",
+      //     },
+      //   ],
+      //   link: "",
+      // },
     ],
   },
 

@@ -1,7 +1,7 @@
 function ProfessionalExperiences({ experiencesInfos }) {
   return (
     <article className="experiences">
-      <h2>3. {experiencesInfos.field}</h2>
+      <h2>2. {experiencesInfos.field}</h2>
       {experiencesInfos.content.map((experienceItem, index) => (
         <div key={index} className="experience-item">
           <div className="head">

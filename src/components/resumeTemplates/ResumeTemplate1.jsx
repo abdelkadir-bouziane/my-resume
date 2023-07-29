@@ -26,17 +26,17 @@ export const ResumeTemplate1 = React.forwardRef((props, ref) => {
         />
         <Contact contactInfos={props.informations.contact} />
         <Profile profileInfo={props.informations.profile} />
-        <Education educationInfos={props.informations.education} />
         <ProfessionalExperiences
           experiencesInfos={props.informations.professionalExperiences}
         />
+        <Education educationInfos={props.informations.education} />
+        <Projects projectsInfos={props.informations.projects} />
         <Certificates certificatesInfos={props.informations.certificates} />
         <Skills skillsInfos={props.informations.skills} />
-        <Projects projectsInfos={props.informations.projects} />
         <Languages languagesInfos={props.informations.languages} />
-        <AdditionalInformation
+        {/* <AdditionalInformation
           additionalInformation={props.informations.additionalInformation}
-        />
+        /> */}
       </div>
     </main>
   );
