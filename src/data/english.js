@@ -72,7 +72,7 @@ export const english = {
           to: "Present",
         },
         description:
-          "MEGASOFT OFFICE, founded in 1990, is Algeria's leading management software company. It offers a wide range of products to help companies manage their activities. As a Fullstack web developer in the company, my role was to work with their development team to improve their products and migrate them to web applications using the React js and Express js.",
+          "MEGASOFT OFFICE, founded in 1990, is Algeria's leading management software company. It offers a wide range of products to help companies manage their activities. As a Fullstack web developer in the company, my role was to work with their development team to improve their products and migrate them to web applications using React js and Express js.",
       },
       {
         experience: "Frontend web developer",
