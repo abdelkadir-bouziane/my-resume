@@ -1,4 +1,6 @@
-function ProfessionalExperiences({ experiencesInfos }) {
+import { calculatePeriodLength } from "../utils/utilsFunctions";
+
+function ProfessionalExperiences({ experiencesInfos, language }) {
   return (
     <article className="experiences">
       <h2>2. {experiencesInfos.field}</h2>
@@ -23,7 +25,13 @@ function ProfessionalExperiences({ experiencesInfos }) {
             </div>
 
             <div className="date-address">
-              <span>{`${experienceItem.period.from} - ${experienceItem.period.to}`}</span>
+              <span>{`${experienceItem.period.from} - ${
+                experienceItem.period.to
+              } ${calculatePeriodLength(
+                experienceItem.period.from,
+                experienceItem.period.to,
+                language
+              )}`}</span>
               <br />
               <span>{experienceItem.address}</span>
             </div>

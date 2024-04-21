@@ -1,9 +1,4 @@
 function Projects({ projectsInfos }) {
-  const handleProjectClick = (project) => {
-    if (project?.link1) window.open(project.link1);
-    if (project?.link2) window.open(project.link2);
-  };
-
   return (
     <article className="projects">
       <h2>4. {projectsInfos.field}</h2>
@@ -12,12 +7,14 @@ function Projects({ projectsInfos }) {
           <div className="head">
             <div className="project-title">
               <h3>
-                {projectItem.link1 === "" && projectItem.link2 === "" ? (
+                {projectItem.link === "" ? (
                   projectItem.title
                 ) : (
                   <a
                     style={{ cursor: "pointer" }}
-                    onClick={() => handleProjectClick(projectItem)}
+                    href={projectItem.link}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     {projectItem.title}
                   </a>

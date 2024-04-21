@@ -19,7 +19,7 @@ export const french = {
   profile: {
     field: "Profil",
     content:
-      "Développeur web frontend expérimenté en React JS avec une passion pour tout ce qui concerne le développement web. Compétence en HTML, CSS, JavaScript et construction d'applications responsives. Solides compétences en résolution de problèmes et esprit d'équipe collaboratif.",
+      "Développeur web frontend expérimenté en React js avec une passion pour tout ce qui concerne le développement web. Compétence en HTML, CSS, JavaScript et construction d'applications responsives. Solides compétences en résolution de problèmes et esprit d'équipe collaboratif.",
   },
 
   education: {
@@ -27,7 +27,7 @@ export const french = {
     content: [
       {
         diploma: "Diplômes d'ingénieur d'état et master en informatique",
-        link: "https://drive.google.com/file/d/1HGJbRo39umQwpAN0ph_X0zBlI-UmFOlw/view?usp=share_link",
+        link: "https://drive.google.com/file/d/132leqwrWGNVyM9TiUbCj6dRFhzpAXOyl/view?usp=sharing",
         establishment: {
           name: "École nationale supérieure d'informatique - ESI",
           webSite: "https://www.esi.dz/",
@@ -60,7 +60,22 @@ export const french = {
     field: "Expériences professionnelles",
     content: [
       {
-        experience: "Développeur web fullstack",
+        experience: "Développeur web Full-stack",
+        link: "",
+        establishment: {
+          name: "MyEM (My Energy Manager)",
+          webSite: "https://www.myem.fr/",
+        },
+        address: "Lyon, France",
+        period: {
+          from: "07/2023",
+          to: "Présent",
+        },
+        description:
+          "MyEM développe des solutions énergétiques innovantes pour les entreprises, les collectivités locales et les particuliers. En tant que développeur web Full-stack (consultant externe) dans la startup, mon rôle est de travailler avec leur équipe de développement pour améliorer leur produit et ajouter de nouvelles fonctionnalités en utilisant React js et FastAPI.",
+      },
+      {
+        experience: "Développeur web Full-stack",
         link: "",
         establishment: {
           name: "MEGASOFT OFFICE",
@@ -68,73 +83,28 @@ export const french = {
         },
         address: "Alger, Algérie",
         period: {
-          from: "04/2023",
-          to: "Présent",
+          from: "10/2022",
+          to: "06/2023",
         },
         description:
-          "MEGASOFT OFFICE, fondé en 1990, est le premier éditeur algérien de logiciels de gestion. Il propose une large gamme de produits pour aider les entreprises à gérer leurs activités. En tant que développeur web Fullstack dans l'entreprise, mon rôle était de travailler avec leur équipe de développement pour améliorer leurs produits et les migrer vers des applications web en utilisant React js et Express js.",
-      },
-      {
-        experience: "Développeur web Frontend",
-        link: "",
-        establishment: {
-          name: "Digital Home",
-          webSite: "https://www.digital-home.org/",
-        },
-        address: "Alger, Algérie",
-        period: {
-          from: "01/2023",
-          to: "04/2023",
-        },
-        description:
-          "Digital Home est une plateforme d'achat numérique algérienne. En tant que développeur web Frontend dans la startup, mon rôle était d'ajouter de nouvelles fonctionnalités et de maintenir le côté frontend de leur plateforme crée avec le framework de React: Next js.",
+          "MEGASOFT OFFICE, fondé en 1990, est le premier éditeur algérien de logiciels de gestion. Il propose une large gamme de produits pour aider les entreprises à gérer leurs activités. En tant que développeur web Full-stack dans l'entreprise, mon rôle était de travailler avec leur équipe de développement pour améliorer leurs produits et les migrer vers des applications web en utilisant React js et Express js.",
       },
       {
         experience:
           "Elaboration du projet de fin d'études pour l'obtention du diplôme d'Ingénieur d'État",
-        link: "https://drive.google.com/file/d/1YcbFuwm9aMRFTQahMScsqZRVNVr5fC-d/view?usp=share_link",
+        link: "https://drive.google.com/file/d/1zgHG5hlRyB3LnmbIObqQKAlVL-vch8n4/view?usp=sharing",
         establishment: {
           name: "Laboratoire LCSI - ESI",
           webSite: "http://lcsi.esi.dz/",
         },
         address: "Alger, Algérie",
         period: {
-          from: "10/2021",
-          to: "10/2022",
+          from: "09/2021",
+          to: "08/2022",
         },
         description:
           "Le sujet du projet était : \"La reproduction des styles de jeu d'échecs en utilisant l'apprentissage par renforcement profond à partir de démonstrations avec des réseaux MLPs et CNNs\".",
       },
-      // {
-      //   experience: "Élaboration de la thèse du Master",
-      //   link: "https://drive.google.com/file/d/1KJihtfen5U1hQNpR1jGaOn2K-vE4dvhn/view?usp=share_link",
-      //   establishment: {
-      //     name: "Laboratoire LCSI - ESI",
-      //     webSite: "http://lcsi.esi.dz/",
-      //   },
-      //   address: "Alger, Algérie",
-      //   period: {
-      //     from: "10/2021",
-      //     to: "03/2022",
-      //   },
-      //   description:
-      //     'Le sujet de la thèse était : "Étude des architectures neuronales pour le clonage du cerveau humain, application aux moteurs d\'échecs".',
-      // },
-      // {
-      //   experience: "Stage de découverte dans un environnement professionnel",
-      //   link: "https://drive.google.com/file/d/1J6z9j5LDVTg0-tmtp6i0FNF6TmETk4lM/view?usp=share_link",
-      //   establishment: {
-      //     name: "Algérie Télécom ",
-      //     webSite: "https://www.algerietelecom.dz/",
-      //   },
-      //   address: "Chlef, Algérie",
-      //   period: {
-      //     from: "09/2019",
-      //     to: "10/2019",
-      //   },
-      //   description:
-      //     "Il s'agissait d'un stage de découverte dans un environnement professionnel au centre de maintenance du réseau d'accès d'Algérie Télécom.",
-      // },
     ],
   },
 
@@ -168,29 +138,30 @@ export const french = {
         details: [],
       },
       {
-        title: "Développement web Front-End",
+        title: "Développement Front-End",
         details: [
           {
-            name: "HTML",
-            certificateLink:
-              "https://www.sololearn.com/certificates/CT-W2DEFXIY",
-          },
-          {
-            name: "CSS",
-            certificateLink:
-              "https://www.sololearn.com/certificates/CT-1J5NZF5D",
-          },
-          {
-            name: "Javascript (ES6)",
-            certificateLink:
-              "https://www.sololearn.com/certificates/CT-BAG360B8",
-          },
-          {
-            name: "React JS",
+            name: "React js",
             certificateLink: "",
           },
           {
-            name: "Next JS",
+            name: "Next js",
+            certificateLink: "",
+          },
+          {
+            name: "TypeScript",
+            certificateLink: "",
+          },
+          {
+            name: "Consume REST API",
+            certificateLink: "",
+          },
+          {
+            name: "Tailwind CSS",
+            certificateLink: "",
+          },
+          {
+            name: "Material-UI",
             certificateLink: "",
           },
           {
@@ -210,7 +181,23 @@ export const french = {
             certificateLink: "",
           },
           {
-            name: "Consume REST APIs",
+            name: "Unit Testing",
+            certificateLink: "",
+          },
+          {
+            name: "Jest",
+            certificateLink: "",
+          },
+          {
+            name: "Javascript",
+            certificateLink: "",
+          },
+          {
+            name: "HTML",
+            certificateLink: "",
+          },
+          {
+            name: "CSS",
             certificateLink: "",
           },
           {
@@ -220,18 +207,30 @@ export const french = {
         ],
       },
       {
-        title: "Développement web Back-End",
+        title: "Développement Back-End",
         details: [
           {
-            name: "Node",
+            name: "Node js",
             certificateLink: "",
           },
           {
-            name: "Express JS",
+            name: "Express js",
             certificateLink: "",
           },
           {
             name: "Sequelize",
+            certificateLink: "",
+          },
+          {
+            name: "Python",
+            certificateLink: "",
+          },
+          {
+            name: "FastAPI",
+            certificateLink: "",
+          },
+          {
+            name: "SQLAlchemy",
             certificateLink: "",
           },
         ],
@@ -275,8 +274,7 @@ export const french = {
           },
           {
             name: "Python",
-            certificateLink:
-              "https://www.sololearn.com/certificates/CT-MQ1ZI8TT",
+            certificateLink: "",
           },
         ],
       },
@@ -285,18 +283,24 @@ export const french = {
           "Langage de programmation et outils déjà utilisés (par ordre décroissant d'utilisation)",
         details: [
           {
-            name: "Javascript (ES6)",
-            certificateLink:
-              "https://www.sololearn.com/certificates/CT-BAG360B8",
+            name: "Typescript",
+            certificateLink: "",
           },
           {
-            name: "Node",
+            name: "Javascript",
+            certificateLink: "",
+          },
+          {
+            name: "Node js",
             certificateLink: "",
           },
           {
             name: "Python",
-            certificateLink:
-              "https://www.sololearn.com/certificates/CT-MQ1ZI8TT",
+            certificateLink: "",
+          },
+          {
+            name: "Java",
+            certificateLink: "",
           },
           {
             name: "C",
@@ -307,15 +311,7 @@ export const french = {
             certificateLink: "",
           },
           {
-            name: "WPF",
-            certificateLink: "",
-          },
-          {
             name: "Unity 3D",
-            certificateLink: "",
-          },
-          {
-            name: "Java",
             certificateLink: "",
           },
           {
@@ -328,11 +324,15 @@ export const french = {
         title: "Art et Design",
         details: [
           {
-            name: "Dessin au crayon",
+            name: "UI / UX Design",
             certificateLink: "",
           },
           {
             name: "Adobe Illustrator",
+            certificateLink: "",
+          },
+          {
+            name: "Inkscape",
             certificateLink: "",
           },
           {
@@ -356,13 +356,60 @@ export const french = {
     field: "Projets",
     content: [
       {
+        title: "CV en ligne",
+        date: "10/2022",
+        description:
+          "Une version en ligne de mon CV avec un mode sombre, un sélecteur de langues et la possibilité de télécharger une version PDF du CV.",
+        tools: [
+          {
+            name: "React js",
+            certificateLink: "",
+          },
+          {
+            name: "Javascript",
+            certificateLink: "",
+          },
+          {
+            name: "CSS",
+            certificateLink: "",
+          },
+        ],
+        link: "https://abdelkadir-bouziane.github.io/my-resume/",
+      },
+      {
+        title:
+          "Application web pour montrer des informations sur tous les pays du monde",
+        date: "09/2022",
+        description:
+          "Il s'agit d'une solution au défi \"REST Countries API with color theme switcher\" sur le site Web Frontend Mentor.",
+        tools: [
+          {
+            name: "React js",
+            certificateLink: "",
+          },
+          {
+            name: "Javascript",
+            certificateLink: "",
+          },
+          {
+            name: "CSS",
+            certificateLink: "",
+          },
+          {
+            name: "Consume REST API",
+            certificateLink: "",
+          },
+        ],
+        link: "https://abdelkadir-bouziane.github.io/rest-countries-api",
+      },
+      {
         title: "Application web pour la gestion de la production laitière",
-        date: "12/2022",
+        date: "09/2022",
         description:
           "Le projet consistait à créer un site web interne en arabe (création du design UI du site, puis codage) pour gérer les opérations quotidiennes d'une entreprise de production de lait.",
         tools: [
           {
-            name: "React JS",
+            name: "React js",
             certificateLink: "",
           },
           {
@@ -371,19 +418,22 @@ export const french = {
           },
           {
             name: "CSS",
-            certificateLink:
-              "https://www.sololearn.com/certificates/CT-1J5NZF5D",
-          },
-          {
-            name: "Consommation d'API REST",
             certificateLink: "",
           },
           {
-            name: "Node",
+            name: "Consume REST API",
             certificateLink: "",
           },
           {
-            name: "Express JS",
+            name: "Node js",
+            certificateLink: "",
+          },
+          {
+            name: "Express js",
+            certificateLink: "",
+          },
+          {
+            name: "UI / UX Design",
             certificateLink: "",
           },
           {
@@ -391,56 +441,8 @@ export const french = {
             certificateLink: "",
           },
         ],
-        link1:
-          "https://github.com/abdelkadir-bouziane/milk-production-management-application",
-        link2: "",
+        link: "https://github.com/abdelkadir-bouziane/milk-production-management-application",
       },
-      {
-        title:
-          "Application web pour montrer des informations sur tous les pays du monde",
-        date: "11/2022",
-        description:
-          "Il s'agit d'une solution au défi \"REST Countries API with color theme switcher\" sur le site Web Frontend Mentor.",
-        tools: [
-          {
-            name: "React JS",
-            certificateLink: "",
-          },
-          {
-            name: "Javascript (ES6)",
-            certificateLink:
-              "https://www.sololearn.com/certificates/CT-BAG360B8",
-          },
-          {
-            name: "CSS",
-            certificateLink:
-              "https://www.sololearn.com/certificates/CT-1J5NZF5D",
-          },
-          {
-            name: "Consommation d'API REST",
-            certificateLink: "",
-          },
-        ],
-        link1: "https://github.com/abdelkadir-bouziane/rest-countries-api",
-        link2: "https://abdelkadir-bouziane.github.io/rest-countries-api",
-      },
-      // {
-      //   title: "Application de bureau SOROBAN",
-      //   date: "2019",
-      //   description:
-      //     "Création d'une application permettant de générer des tests pour les différents niveaux de la formation japonaise SOROBAN.",
-      //   tools: [
-      //     {
-      //       name: "C#",
-      //       certificateLink: "",
-      //     },
-      //     {
-      //       name: "WPF",
-      //       certificateLink: "",
-      //     },
-      //   ],
-      //   link: "",
-      // },
     ],
   },
 
@@ -459,24 +461,6 @@ export const french = {
       {
         language: "Anglais",
         certificateLink: "",
-      },
-    ],
-  },
-
-  additionalInformation: {
-    field: "Informations complémentaires",
-    content: [
-      {
-        field: "Naissance",
-        value: "7 février 1999",
-      },
-      {
-        field: "État civil",
-        value: "Célibataire",
-      },
-      {
-        field: "Nationalité",
-        value: "Algérienne",
       },
     ],
   },

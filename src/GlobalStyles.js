@@ -27,7 +27,6 @@ html {
   @media print {
     font-size: 10px;
   }
-
 }
 
 body {
@@ -145,10 +144,6 @@ main {
 
 .name {
   text-align: center;
-
-  @media print {
-    break-inside: avoid;
-  }
 }
 .name img {
   width: 100%;
@@ -171,10 +166,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-  @media print {
-    break-inside: avoid;
-  }
 }
 
 .contact > span {
@@ -211,13 +202,8 @@ main {
 .certificates,
 .skills,
 .projects,
-.languages,
-.additionalInformation {
+.languages {
   margin: 5rem 0;
-
-  @media print {
-    break-inside: avoid;
-  }
 }
 
 .profile h2,
@@ -226,39 +212,65 @@ main {
 .certificates h2,
 .skills h2,
 .projects h2,
-.languages h2,
-.additionalInformation h2 {
+.languages h2 {
   font-size: 2.1rem;
   width: fit-content;
   border-bottom: solid 0.4rem ${({ theme }) => theme.text};
   margin-bottom: 2rem;
+
+  @media print {
+    page-break-after: avoid;
+  }
 }
 
 .profile p,
 .education .education-item,
 .experiences p,
 .certificates p,
-.projects .project-item {
-  margin: 1.5rem 0;
+.projects .content 
+{
+  margin: 1rem 0;
 }
 
 /* Styling the Education component */
+
+.profile p,
+.experience-item,
+.certificate-item,
+.project-item,
+.skill-item,
+.languages-content
+.education-item .head,
+.education-item .content .modules {
+  @media print {
+    page-break-inside: avoid;
+  }
+}
 
 .education-item .head,
 .experience-item .head,
 .certificate-item .head,
 .project-item .head {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  gap: 1rem;
   margin-top: 3rem;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  @media print {
+    @media (max-width: 800px) {
+      flex-direction: row;
+    }
+  }
 }
 
 .diploma-establishment,
 .experience-establishment,
 .certificate-offeredBy,
 .project-title {
-  width: 600px;
+  flex: 1;
   margin-right: 1rem;
 }
 
@@ -304,6 +316,7 @@ main {
 }
 
 .date-address {
+  margin-top: 0.5rem;
   font-size: 1.2rem;
   font-style: italic;
   opacity: 0.6;
@@ -322,8 +335,7 @@ main {
 }
 
 .modules li,
-.skills li,
-.additionalInformation li {
+.skills li {
   margin: 1rem 0 0 3rem;
 }
 
@@ -378,7 +390,10 @@ a {
 
 a::after{
   content: "";
-  background-image: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 15 15'><g fill='${({ theme }) => theme.text}'><path d='M9 .75A.75.75 0 019.75 0h4.5c.206 0 .393.083.529.218l.001.002.002.001A.748.748 0 0115 .75v4.5a.75.75 0 01-1.5 0V2.56L7.28 8.78a.75.75 0 01-1.06-1.06l6.22-6.22H9.75A.75.75 0 019 .75z' /><path d='M3.25 3.5a.75.75 0 00-.75.75v7.5c0 .414.336.75.75.75h7.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0110.75 14h-7.5A2.25 2.25 0 011 11.75v-7.5A2.25 2.25 0 013.25 2h4a.75.75 0 010 1.5h-4z' /></g></svg>");
+  background-image: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 15 15'><g fill='${({
+    theme,
+  }) =>
+    theme.text}'><path d='M9 .75A.75.75 0 019.75 0h4.5c.206 0 .393.083.529.218l.001.002.002.001A.748.748 0 0115 .75v4.5a.75.75 0 01-1.5 0V2.56L7.28 8.78a.75.75 0 01-1.06-1.06l6.22-6.22H9.75A.75.75 0 019 .75z' /><path d='M3.25 3.5a.75.75 0 00-.75.75v7.5c0 .414.336.75.75.75h7.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0110.75 14h-7.5A2.25 2.25 0 011 11.75v-7.5A2.25 2.25 0 013.25 2h4a.75.75 0 010 1.5h-4z' /></g></svg>");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

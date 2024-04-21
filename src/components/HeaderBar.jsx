@@ -16,7 +16,7 @@ function HeaderBar({ language, setLanguage, theme, setTheme, handlePrint }) {
         </div>
 
         <div className="print-and-lightness">
-          <button onClick={handlePrint}>Print it</button>
+          <button onClick={handlePrint}>Download PDF</button>
           <div
             className="lightness-mode"
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}

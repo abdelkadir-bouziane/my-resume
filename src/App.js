@@ -31,6 +31,7 @@ function App() {
           ref={componentRef}
           informations={informations[language]}
           photo={photo}
+          language={language}
         />
       </section>
     </ThemeProvider>

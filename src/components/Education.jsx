@@ -1,4 +1,6 @@
-function Education({ educationInfos }) {
+import { calculatePeriodLength } from "../utils/utilsFunctions";
+
+function Education({ educationInfos, language }) {
   return (
     <article className="education">
       <h2>3. {educationInfos.field}</h2>
@@ -23,7 +25,13 @@ function Education({ educationInfos }) {
             </div>
 
             <div className="date-address">
-              <span>{`${educationItem.period.from} - ${educationItem.period.to}`}</span>
+              <span>{`${educationItem.period.from} - ${
+                educationItem.period.to
+              } ${calculatePeriodLength(
+                educationItem.period.from,
+                educationItem.period.to,
+                language
+              )}`}</span>
               <br />
               <span>{educationItem.address}</span>
             </div>
