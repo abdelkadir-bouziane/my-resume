@@ -1,7 +1,7 @@
 function Languages({ languagesInfos }) {
   return (
     <article className="languages">
-      <h2>7. {languagesInfos.field}</h2>
+      <h2>6. {languagesInfos.field}</h2>
       <div className="languages-content">
         {languagesInfos.content.map((language, index) => (
           <span key={index} className="language">

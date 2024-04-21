@@ -138,6 +138,19 @@ export const english = {
         details: [],
       },
       {
+        title: "Project management",
+        details: [
+          {
+            name: "Agile Methodologies",
+            certificateLink: "",
+          },
+          {
+            name: "Scrum",
+            certificateLink: "",
+          },
+        ],
+      },
+      {
         title: "Front-End Developement",
         details: [
           {

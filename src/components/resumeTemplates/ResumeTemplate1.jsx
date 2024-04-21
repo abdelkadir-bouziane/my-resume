@@ -4,7 +4,7 @@ import Contact from "../Contact";
 import Profile from "../Profile";
 import Education from "../Education";
 import ProfessionalExperiences from "../ProfessionalExperiences";
-import Certificates from "../Certificates";
+// import Certificates from "../Certificates";
 import Skills from "../Skills";
 import Projects from "../Projects";
 import Languages from "../Languages";
@@ -76,7 +76,7 @@ export const ResumeTemplate1 = React.forwardRef((props, ref) => {
           language={props.language}
         />
         <Projects projectsInfos={props.informations.projects} />
-        <Certificates certificatesInfos={props.informations.certificates} />
+        {/* <Certificates certificatesInfos={props.informations.certificates} /> */}
         <Skills skillsInfos={props.informations.skills} />
         <Languages languagesInfos={props.informations.languages} />
       </div>

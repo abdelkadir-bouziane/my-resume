@@ -138,6 +138,19 @@ export const french = {
         details: [],
       },
       {
+        title: "Gestion de projet",
+        details: [
+          {
+            name: "Agile Methodologies",
+            certificateLink: "",
+          },
+          {
+            name: "Scrum",
+            certificateLink: "",
+          },
+        ],
+      },
+      {
         title: "Développement Front-End",
         details: [
           {
