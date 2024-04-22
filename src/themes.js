@@ -1,22 +1,22 @@
 export const themes = {
   light: {
-    text: "#333333",
+    text: "rgb(51, 51, 51)",
     globalBackground: "#f1f1f1",
     elementsBackground: "#ffffff",
-    hover: "#33333399",
+    hover: "rgba(51, 51, 51, 0.6)",
     HeaderShaddow: "#00000033",
     imgShaddow: "#00000033",
-    invText: "#cccccc",
+    invText: "rgb(204, 204, 204)",
     invElementsBackground: "#1e1e1e",
   },
   dark: {
-    text: "#cccccc",
+    text: "rgb(204, 204, 204)",
     globalBackground: "#121212",
     elementsBackground: "#1e1e1e",
-    hover: "#cccccc99",
+    hover: "rgba(204, 204, 204, 0.6)",
     HeaderShaddow: "#00000080",
     imgShaddow: "#00000080",
-    invText: "#333333",
+    invText: "rgb(51, 51, 51)",
     invElementsBackground: "#ffffff",
   },
 };
