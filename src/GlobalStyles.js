@@ -38,7 +38,8 @@ body {
 
 header {
   box-shadow: 0 0 15px ${({ theme }) => theme.HeaderShaddow};
-  background-color: ${({ theme }) => theme.elementsBackground};
+  background-color: ${({ theme }) => theme.elementsBackground+ "aa"};
+  backdrop-filter: blur(10px);
   position: fixed;
   top: 0;
   left: 0;
