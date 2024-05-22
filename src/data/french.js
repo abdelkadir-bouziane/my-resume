@@ -83,11 +83,26 @@ export const french = {
         },
         address: "Alger, Algérie",
         period: {
-          from: "10/2022",
+          from: "02/2023",
           to: "06/2023",
         },
         description:
           "MEGASOFT OFFICE, fondé en 1990, est le premier éditeur algérien de logiciels de gestion. Il propose une large gamme de produits pour aider les entreprises à gérer leurs activités. En tant que développeur web Full-stack dans l'entreprise, mon rôle était de travailler avec leur équipe de développement pour améliorer leurs produits et les migrer vers des applications web en utilisant React js et Express js.",
+      },
+      {
+        experience: "Développeur web Frontend",
+        link: "",
+        establishment: {
+          name: "Digital Home",
+          webSite: "https://www.digital-home.org/",
+        },
+        address: "Alger, Algérie",
+        period: {
+          from: "10/2022",
+          to: "01/2023",
+        },
+        description:
+          "Digital Home est une plateforme d'achat numérique algérienne. En tant que développeur web Frontend dans la startup, mon rôle était d'ajouter de nouvelles fonctionnalités et de maintenir le côté frontend de leur plateforme crée avec le framework de React: Next js.",
       },
       {
         experience:

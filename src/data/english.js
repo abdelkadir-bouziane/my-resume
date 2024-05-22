@@ -83,11 +83,26 @@ export const english = {
         },
         address: "Algiers, Algeria",
         period: {
-          from: "10/2022",
+          from: "02/2023",
           to: "06/2023",
         },
         description:
           "MEGASOFT OFFICE, founded in 1990, is Algeria's leading management software company. It offers a wide range of products to help companies manage their activities. As a Full-stack web developer in the company, my role was to work with their development team to improve their products and migrate them to web applications using React js and Express js.",
+      },
+      {
+        experience: "Frontend web developer",
+        link: "",
+        establishment: {
+          name: "Digital Home",
+          webSite: "https://www.digital-home.org/",
+        },
+        address: "Algiers, Algeria",
+        period: {
+          from: "10/2022",
+          to: "01/2023",
+        },
+        description:
+          "Digital Home is an Algerian digital shopping platform. As a Frontend web developer in the startup, my role was to add new features and maintain the frontend side of their platform created with the React framework: Next js.",
       },
       {
         experience:
